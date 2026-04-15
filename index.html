@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO - Optimisé pour le concours -->
+    <title>AgriChain | Passeport Numérique du Cacao Togolais - Traçabilité Blockchain EUDR</title>
+    <meta name="description"
+        content="AgriChain : Solution blockchain de traçabilité pour les 40 000 familles productrices de cacao au Togo. Conformité EUDR 2025. De la parcelle togolaise à la tablette européenne.">
+    <meta name="keywords"
+        content="Togo, Cacao, Blockchain, EUDR, Traçabilité, AgriChain, Agriculture, Développement Durable">
+    <meta name="author" content="AgriChain Team">
+    <meta name="theme-color" content="#3D1C0A">
+
+    <!-- Open Graph pour partage social -->
+    <meta property="og:title" content="AgriChain - Le Passeport Numérique du Cacao Togolais">
+    <meta property="og:description"
+        content="Traçabilité blockchain pour la conformité EUDR. 40 000 familles concernées.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233D1C0A'/%3E%3Cpath d='M30 50 L50 30 L70 50 L50 70 Z' fill='%23D4A056'/%3E%3Ctext x='50' y='65' font-size='20' fill='%23FFFFFF' text-anchor='middle' font-family='Arial' font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Styles principaux -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Motif Kente décoratif en haut -->
+    <div class="kente-header"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">Agri<span class="brand-accent">Chain</span></span>
+                    <span class="brand-tag">Togo</span>
+                </div>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#contexte" class="nav-link">Contexte</a></li>
+                <li class="nav-item"><a href="#probleme" class="nav-link">Problème</a></li>
+                <li class="nav-item"><a href="#solution" class="nav-link">Solution</a></li>
+                <li class="nav-item"><a href="#technologie" class="nav-link">Technologie</a></li>
+                <li class="nav-item"><a href="#impact" class="nav-link">Impact</a></li>
+                <li class="nav-item"><a href="#vision" class="nav-link">Vision 2050</a></li>
+                <li class="nav-item"><a href="#verification" class="nav-link btn-nav">Vérifier un lot</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Impact Immédiat -->
+    <section class="hero" id="accueil">
+        <div class="hero-particles"></div>
+        <div class="hero-overlay"></div>
+
+        <!-- Image de fond : plantation de cacao -->
+        <div class="hero-bg" style="background-image: url('assets/images/image1.png');"></div>
+
+        <div class="container hero-container">
+            <div class="hero-badge" data-aos="fade-down" data-aos-duration="1000">
+                <span class="badge-icon">⚠️</span>
+                <span class="badge-text">EUDR 2025 - Conformité Obligatoire pour l'Export vers l'UE</span>
+            </div>
+
+            <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Le Passeport Numérique<br>
+                <span class="hero-title-accent">du Cacao Togolais</span>
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                De la parcelle de Kpalimé à la tablette de chocolat européenne,<br>
+                <span class="hero-emphasis">sans intermédiaire frauduleux, sans opacité, sans exclusion.</span>
+            </p>
+
+            <div class="hero-cta" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <a href="#verification" class="btn btn-primary btn-hero">
+                    <i class="fas fa-qrcode"></i> Vérifier un lot maintenant
+                </a>
+                <a href="#solution" class="btn btn-outline btn-hero">
+                    <i class="fas fa-arrow-down"></i> Découvrir AgriChain
+                </a>
+            </div>
+
+            <!-- Chiffres chocs -->
+            <div class="hero-stats" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number">40 000+</div>
+                    <div class="stat-label">Familles productrices</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-percent"></i></div>
+                    <div class="stat-number">15-25%</div>
+                    <div class="stat-label">Revenu actuel / valeur finale</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="stat-number">30-40M$</div>
+                    <div class="stat-label">Pertes annuelles (fraude)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="stat-number">&lt;5%</div>
+                    <div class="stat-label">Cacao certifié actuel</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="hero-scroll">
+            <span>Découvrir</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section Contexte -->
+    <section id="contexte" class="section contexte-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">La Filière Café-Cacao au Togo</span>
+                <h2 class="section-title">Un Pilier Économique en Danger</h2>
+                <p class="section-subtitle">5,5% du PIB agricole • 58 000 hectares cultivés • 2ème et 3ème produits
+                    d'exportation</p>
+            </div>
+
+            <div class="contexte-grid">
+                <div class="contexte-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card-icon"><i class="fas fa-tractor"></i></div>
+                    <h3>Importance Économique</h3>
+                    <p>Le café et le cacao représentent le 2<sup>ème</sup> et 3<sup>ème</sup> produits agricoles
+                        d'exportation après le coton. Ces filières font vivre directement plus de <strong>31 200
+                            producteurs enregistrés</strong> sur les plateaux de l'Ouest.</p>
+                    <div class="card-stats">
+                        <div class="mini-stat"><span>38 058 ha</span> Café</div>
+                        <div class="mini-stat"><span>20 183 ha</span> Cacao</div>
+                    </div>
+                </div>
+
+                <div class="contexte-card highlight" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Évolution de la Production</h3>
+                    <div class="production-chart">
+                        <div class="chart-item">
+                            <span class="year">1991 (record)</span>
+                            <span class="value">25 903 t</span>
+                            <div class="bar" style="width: 100%"></div>
+                        </div>
+                        <div class="chart-item">
+                            <span class="year">2021 (creux)</span>
+                            <span class="value">2 000 t</span>
+                            <div class="bar" style="width: 8%"></div>
+                        </div>
+                        <div class="chart-item">
+                            <span class="year">2024-2025</span>
+                            <span class="value">24 000 t</span>
+                            <div class="bar" style="width: 93%"></div>
+                        </div>
+                        <div class="chart-item">
+                            <span class="year">2030 (objectif)</span>
+                            <span class="value">40 000+ t</span>
+                            <div class="bar" style="width: 155%"></div>
+                        </div>
+                    </div>
+                    <p class="trend-positive"><i class="fas fa-arrow-up"></i> +50% d'exportations en 2024-2025</p>
+                </div>
+
+                <div class="contexte-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Régions Productrices</h3>
+                    <ul class="region-list">
+                        <li><i class="fas fa-check"></i> Kpalimé (Centre de la filière)</li>
+                        <li><i class="fas fa-check"></i> Région du Litimé</li>
+                        <li><i class="fas fa-check"></i> Région de la Kayah</li>
+                        <li><i class="fas fa-check"></i> Plateaux de l'Ouest</li>
+                    </ul>
+                    <div class="map-preview">
+                        <i class="fas fa-map"></i> Carte des zones de production
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Problème -->
+    <section id="probleme" class="section probleme-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag danger">L'Urgence</span>
+                <h2 class="section-title">La Chaîne de Valeur Brisée</h2>
+                <p class="section-subtitle">4 à 6 intermédiaires • 0 traçabilité • 40 millions $ de pertes annuelles</p>
+            </div>
+
+            <!-- Chaîne de valeur visuelle -->
+            <div class="chaine-valeur" data-aos="fade-up">
+                <div class="chaine-header">
+                    <span class="chaine-badge">De la ferme à l'export : Un parcours opaque</span>
+                </div>
+                <div class="chaine-steps">
+                    <div class="step">
+                        <div class="step-icon"><i class="fas fa-user"></i></div>
+                        <div class="step-content">
+                            <h4>Agriculteur</h4>
+                            <p>Récolte et séchage. Poids estimé. Aucune preuve d'existence.</p>
+                        </div>
+                        <div class="step-loss">-0%</div>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="step fraud">
+                        <div class="step-icon"><i class="fas fa-weight-scale"></i></div>
+                        <div class="step-content">
+                            <h4>Pisteur / Collecteur</h4>
+                            <p>Fraude à la pesée : balances truquées, aimants.</p>
+                        </div>
+                        <div class="step-loss negative">-15% (fraude)</div>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="step">
+                        <div class="step-icon"><i class="fas fa-warehouse"></i></div>
+                        <div class="step-content">
+                            <h4>Coopérative</h4>
+                            <p>Agrégation des lots. Mélange des origines.</p>
+                        </div>
+                        <div class="step-loss">-10% (mélange)</div>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="step">
+                        <div class="step-icon"><i class="fas fa-industry"></i></div>
+                        <div class="step-content">
+                            <h4>Exportateur</h4>
+                            <p>Impossibilité de certifier l'origine GPS.</p>
+                        </div>
+                        <div class="step-loss">-20% (non certifié)</div>
+                    </div>
+                    <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="step danger">
+                        <div class="step-icon"><i class="fas fa-euro-sign"></i></div>
+                        <div class="step-content">
+                            <h4>Marché UE</h4>
+                            <p>Refus à la douane sans preuve EUDR !</p>
+                        </div>
+                        <div class="step-loss negative">REFUSÉ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloc EUDR -->
+            <div class="eudr-block" data-aos="fade-up" data-aos-delay="200">
+                <div class="eudr-header">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Le Mur Réglementaire Européen : EUDR 2025</h3>
+                </div>
+                <div class="eudr-content">
+                    <div class="eudr-requiert">
+                        <h4><i class="fas fa-check-circle" style="color: var(--danger);"></i> Ce que l'EUDR exige</h4>
+                        <ul>
+                            <li>Coordonnées GPS précises de chaque parcelle</li>
+                            <li>Preuve de non-déforestation après 2020</li>
+                            <li>Déclaration de diligence raisonnée</li>
+                            <li>Historique complet de la chaîne de custodie</li>
+                        </ul>
+                    </div>
+                    <div class="eudr-manque">
+                        <h4><i class="fas fa-times-circle"></i> Ce que le Togo n'a pas</h4>
+                        <ul>
+                            <li>Système national de géolocalisation</li>
+                            <li>Preuve numérique d'origine</li>
+                            <li>Traçabilité des lots</li>
+                            <li>Certificats vérifiables</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="eudr-consequence">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Sans AgriChain, chaque tonne de cacao togolais risque d'être refusée à la douane
+                        européenne.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Solution AgriChain -->
+    <section id="solution" class="section solution-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag success">La Solution</span>
+                <h2 class="section-title">AgriChain : Le Passeport Numérique du Cacao</h2>
+                <p class="section-subtitle">Low-Tech, High-Trust • Interface simple • Fonctionne hors-ligne</p>
+            </div>
+
+            <!-- Principes -->
+            <div class="principes-grid" data-aos="fade-up">
+                <div class="principe-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Aussi simple qu'un téléphone</h4>
+                    <p>L'agriculteur de Kpalimé enregistre sa récolte en 3 clics, même sans expérience bancaire.</p>
+                </div>
+                <div class="principe-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Aussi fiable qu'un acte notarié</h4>
+                    <p>Blockchain Celo : immuable, vérifiable, inattaquable.</p>
+                </div>
+                <div class="principe-card">
+                    <i class="fas fa-wifi-slash"></i>
+                    <h4>Mode hors-ligne intégré</h4>
+                    <p>Synchronisation automatique dès que le réseau est disponible.</p>
+                </div>
+            </div>
+
+            <!-- Parcours Tracé -->
+            <h3 class="parcours-title" data-aos="fade-up">Le Parcours Tracé : De la Parcelle à l'Europe</h3>
+
+            <div class="parcours-timeline" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h4>À la Parcelle</h4>
+                        <p>L'agriculteur scanne son sac. GPS automatique. QR Code unique généré.</p>
+                        <span class="timeline-badge">Fonctionne hors-ligne</span>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h4>À la Coopérative</h4>
+                        <p>Scan du QR Code. Vérification GPS et conformité EUDR. Détection automatique des écarts de
+                            pesée >2%.</p>
+                        <span class="timeline-badge success">Alerte anti-fraude</span>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h4>À l'Export</h4>
+                        <p>Historique blockchain complet. Génération automatique du certificat EUDR.</p>
+                        <span class="timeline-badge success">Certificat automatique</span>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h4>En Europe</h4>
+                        <p>L'importateur scanne le QR Code. Accès instantané à l'historique complet. Badge vert
+                            "Conforme EUDR".</p>
+                        <span class="timeline-badge success">Importation validée</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fonctionnalités -->
+            <div class="features-grid" data-aos="fade-up">
+                <div class="feature-item">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code unique par lot</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-map-pin"></i>
+                    <span>GPS automatique</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-weight-scale"></i>
+                    <span>Détecteur fraude pesée</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-satellite"></i>
+                    <span>Carte satellite EUDR</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-star"></i>
+                    <span>Score de confiance 0-100</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-calculator"></i>
+                    <span>Estimation revenu premium</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Technologie Blockchain -->
+    <section id="technologie" class="section technologie-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Architecture Technique</span>
+                <h2 class="section-title">Pourquoi la Blockchain ?</h2>
+                <p class="section-subtitle">Immuabilité • Décentralisation • Confiance sans intermédiaire</p>
+            </div>
+
+            <div class="tech-comparison" data-aos="fade-up">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Critère</th>
+                            <th>Base de données classique</th>
+                            <th class="highlight-col">AgriChain (Blockchain Celo)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Propriétaire</td>
+                            <td>Exportateur ou Ministère</td>
+                            <td class="highlight-col">Personne (Réseau décentralisé)</td>
+                        </tr>
+                        <tr>
+                            <td>Risque de falsification</td>
+                            <td>Élevé (modification admin)</td>
+                            <td class="highlight-col">Impossible (immuabilité)</td>
+                        </tr>
+                        <tr>
+                            <td>Conformité EUDR</td>
+                            <td>Insuffisant (manque de confiance)</td>
+                            <td class="highlight-col">Valide (preuve cryptographique)</td>
+                        </tr>
+                        <tr>
+                            <td>Coût pour l'agriculteur</td>
+                            <td>Gratuit mais suspect</td>
+                            <td class="highlight-col">Gratuit (frais < 0,01$)</td>
+                        </tr>
+                        <tr>
+                            <td>Transparence</td>
+                            <td>Limitée</td>
+                            <td class="highlight-col">Totale et vérifiable</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tech-details" data-aos="fade-up">
+                <div class="tech-card">
+                    <i class="fas fa-database"></i>
+                    <h4>Blockchain Celo</h4>
+                    <p>Ultra-mobile friendly. Frais de transaction < 0,01$. Compatible avec les téléphones d'entrée de
+                            gamme.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-lock"></i>
+                    <h4>Preuve ZK (Zero-Knowledge)</h4>
+                    <p>Les coordonnées GPS ne sont pas stockées en clair. Preuve de non-déforestation sans révéler
+                        l'emplacement exact.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h4>IPFS + Hash On-Chain</h4>
+                    <p>Les documents sont stockés sur IPFS. Seul le hash (empreinte numérique) est enregistré sur la
+                        blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Impact -->
+    <section id="impact" class="section impact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Impact</span>
+                <h2 class="section-title">Transformer la Vie de 40 000 Familles</h2>
+                <p class="section-subtitle">AgriChain n'est pas un projet tech. C'est un projet de développement humain.
+                </p>
+            </div>
+
+            <!-- ODD -->
+            <div class="odd-grid" data-aos="fade-up">
+                <div class="odd-card">
+                    <div class="odd-icon">1</div>
+                    <span>Pas de pauvreté</span>
+                </div>
+                <div class="odd-card">
+                    <div class="odd-icon">2</div>
+                    <span>Faim "zéro"</span>
+                </div>
+                <div class="odd-card">
+                    <div class="odd-icon">8</div>
+                    <span>Travail décent</span>
+                </div>
+                <div class="odd-card">
+                    <div class="odd-icon">12</div>
+                    <span>Consommation responsable</span>
+                </div>
+            </div>
+
+            <!-- Chiffres impact -->
+            <div class="impact-numbers" data-aos="fade-up">
+                <div class="impact-item">
+                    <div class="impact-value">+20%</div>
+                    <div class="impact-desc">Augmentation des revenus producteurs</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-value">0</div>
+                    <div class="impact-desc">Fraude à la pesée détectable</div>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-value">100%</div>
+                    <div class="impact-desc">Lots éligibles certification EUDR</div>
+                </div>
+            </div>
+
+            <!-- Inclusion Femmes -->
+            <div class="inclusion-card" data-aos="fade-up">
+                <div class="inclusion-icon"><i class="fas fa-female"></i></div>
+                <div class="inclusion-content">
+                    <h4>AgriChain pour les Femmes Productrices</h4>
+                    <p><strong>40% des producteurs de café et cacao au Togo sont des femmes.</strong> Particulièrement
+                        vulnérables aux fraudes, elles disposent désormais d'un outil de preuve numérique qu'elles
+                        contrôlent elles-mêmes. Paiement direct sur portefeuille mobile, sans intermédiaire.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vision 2030-2050 -->
+    <section id="vision" class="section vision-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Horizon</span>
+                <h2 class="section-title">Vision Stratégique 2030 - 2050</h2>
+                <p class="section-subtitle">Une infrastructure numérique agricole pour les décennies à venir</p>
+            </div>
+
+            <div class="timeline-vision" data-aos="fade-up">
+                <div class="vision-phase">
+                    <div class="phase-year">2026</div>
+                    <div class="phase-content">
+                        <h4>Phase Pilote</h4>
+                        <ul>
+                            <li>200 producteurs à Kpalimé</li>
+                            <li>1 coopérative partenaire</li>
+                            <li>10 lots tracés vers l'Europe</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vision-phase">
+                    <div class="phase-year">2027-2030</div>
+                    <div class="phase-content">
+                        <h4>Déploiement National</h4>
+                        <ul>
+                            <li>5 000 producteurs enregistrés</li>
+                            <li>Intégration CCFCC et Ministère</li>
+                            <li>+30% revenus producteurs certifiés</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vision-phase">
+                    <div class="phase-year">2030-2040</div>
+                    <div class="phase-content">
+                        <h4>Expansion Régionale</h4>
+                        <ul>
+                            <li>Standard CEDEAO de traçabilité</li>
+                            <li>40 000 familles couvertes</li>
+                            <li>Revenus x2 (15% → 35%)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vision-phase">
+                    <div class="phase-year">2040-2050</div>
+                    <div class="phase-content">
+                        <h4>Vision Horizon</h4>
+                        <ul>
+                            <li>100% cacao togolais tracé</li>
+                            <li>80% certifié bio/Fairtrade</li>
+                            <li>Modèle répliqué dans 20+ pays</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Citation -->
+            <div class="vision-quote" data-aos="fade-up">
+                <i class="fas fa-quote-left"></i>
+                <p>Permettre à Koffi, agriculteur à Kpalimé, de prouver à un importateur à Hambourg que son cacao est
+                    propre, traçable, et mérite un prix premium - sans aucun intermédiaire frauduleux.</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vérification (Widget Démo) -->
+    <section id="verification" class="section verification-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Démonstration</span>
+                <h2 class="section-title">Vérifiez un Lot en Temps Réel</h2>
+                <p class="section-subtitle">Entrez un identifiant de lot pour voir l'historique complet sur la
+                    blockchain</p>
+            </div>
+
+            <div class="verification-widget" data-aos="zoom-in">
+                <div class="widget-header">
+                    <i class="fas fa-qrcode"></i>
+                    <span>Vérificateur EUDR</span>
+                </div>
+                <div class="widget-body">
+                    <div class="input-group">
+                        <input type="text" id="lotIdInput" placeholder="Ex: TG-CACAO-2026-042"
+                            value="TG-CACAO-2026-042">
+                        <button id="verifyBtn" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Vérifier sur Chaîne
+                        </button>
+                    </div>
+
+                    <div id="verificationResult" class="verification-result">
+                        <!-- Résultat dynamique injecté par JavaScript -->
+                        <div class="result-placeholder">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>Entrez un ID de lot et cliquez sur "Vérifier"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Badge de confiance -->
+            <div class="trust-badges" data-aos="fade-up">
+                <div class="trust-badge">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Conforme Règlement UE 2023/1115</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-tree"></i>
+                    <span>Zéro Déforestation Prouvée</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-shield"></i>
+                    <span>Blockchain Celo - Immuable</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-name">Agri<span class="brand-accent">Chain</span></div>
+                    <p class="brand-slogan">Le Passeport Numérique du Cacao Togolais</p>
+                    <div class="footer-odd">
+                        <span>ODD 1</span>
+                        <span>ODD 2</span>
+                        <span>ODD 8</span>
+                        <span>ODD 12</span>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#contexte">Contexte</a></li>
+                        <li><a href="#probleme">Problème</a></li>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#technologie">Technologie</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#vision">Vision 2050</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Partenaires</h4>
+                    <ul>
+                        <li><i class="fas fa-building"></i> CCFCC Togo</li>
+                        <li><i class="fas fa-landmark"></i> Ministère de l'Agriculture</li>
+                        <li><i class="fas fa-leaf"></i> Fairtrade International</li>
+                        <li><i class="fas fa-globe"></i> Union Européenne</li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="copyright">© 2026 AgriChain Togo<br>Tous droits réservés</p>
+                </div>
+            </div>
+
+            <!-- Motif Kente Footer -->
+            <div class="kente-footer"></div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
